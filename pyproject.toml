@@ -2,13 +2,25 @@
 name = "flet-soundbyte"
 version = "0.1.0"
 description = "Flet extension for microphone audio recording"
+readme = "README.md"
 authors = [
   { name = "Your Name", email = "you@example.com" }
 ]
 requires-python = ">=3.9"
-dependencies = ["flet>=0.27.6",
-"openai"
+dependencies = [
+  "flet>=0.27.6",
+  "openai"
 ]
+
+classifiers = [
+  "License :: OSI Approved :: MIT License",  # or whichever license you're using
+  "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/flet-soundbyte"
+Repository = "https://github.com/your-username/flet-soundbyte"
+Issues = "https://github.com/your-username/flet-soundbyte/issues"
 
 [build-system]
 requires = ["setuptools"]
@@ -19,3 +31,6 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 license-files = []
+
+[tool.flet.extension]
+name = "flet_soundbyte"
