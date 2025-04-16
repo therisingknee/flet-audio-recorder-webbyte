@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: flet-soundbyte
+Version: 0.1.0
+Summary: Flet extension for microphone audio recording
+Author-email: Your Name <you@example.com>
+Requires-Python: >=3.9
+Requires-Dist: flet>=0.27.6
+Requires-Dist: openai

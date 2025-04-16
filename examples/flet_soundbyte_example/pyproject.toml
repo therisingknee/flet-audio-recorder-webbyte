@@ -1,0 +1,23 @@
+[project]
+name = "flet-soundbyte-example"
+version = "1.0.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Flet developer", email = "you@example.com" }
+]
+dependencies = [
+  "flet>=0.27.6",
+  "flet-soundbyte @ file:///E:/flet_audio_recorder_advanced",
+]
+
+[tool.flet]
+org = "com.mycompany"
+product = "flet-soundbyte-example"
+company = "Flet"
+
+copyright = "Copyright (C) 2025 by MyCompany"
+
+[tool.flet.app]
+path = "src"

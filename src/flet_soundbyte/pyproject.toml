@@ -1,0 +1,19 @@
+[project]
+name = "flet-soundbyte"
+version = "0.1.0"
+description = "Flet extension for microphone audio recording"
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+requires-python = ">=3.9"
+dependencies = ["flet>=0.27.6"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+"flutter.flet_soundbyte" = ["**/*"]
+
+[tool.setuptools]
+license-files = []
