@@ -9,7 +9,8 @@ authors = [
 ]
 dependencies = [
   "flet>=0.27.6",
-  "flet-soundbyte @ file:///E:/flet_audio_recorder_advanced",
+    "flet-soundbyte @ git+https://github.com/therisingknee/flet-audio-recorder-webbyte.git",
+#  "flet-soundbyte @ file:///E:/flet_audio_recorder_advanced",
 ]
 
 [tool.flet]
