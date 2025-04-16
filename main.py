@@ -14,7 +14,7 @@ def main(page: ft.Page):
         audio_bytes = base64.b64decode(e.data)
         with open("recording.webm", "wb") as f:
             f.write(audio_bytes)
-        print("✅ Audio file saved!")
+        print("Audio file saved!")
 
         file_like = io.BytesIO(audio_bytes)
         file_like.name = "audio.webm"
@@ -25,4 +25,4 @@ def main(page: ft.Page):
     page.add(soundbyte)
 
 
-ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+ft.app(target=main)
